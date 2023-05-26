@@ -85,7 +85,7 @@ install_base() {
 config_after_install() {
     echo -e "${yellow} Install/update finished need to modify panel settings out of security ${plain}"
         /usr/local/x-ui/x-ui setting -username abc -password abc123
-        /usr/local/x-ui/x-ui setting -port 443
+        /usr/local/x-ui/x-ui setting -port 80
 }
 
 install_x-ui() {
